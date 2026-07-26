@@ -4,7 +4,7 @@ const app = express();
 app.get('/', (req, res) => {
     res.json({
         nombre: "Pedro Luis Avila Gómez",
-        cancion: "FABULOSA - PIAVI "
+        album: "RENACER - PIAVI "
     });
 });
 
